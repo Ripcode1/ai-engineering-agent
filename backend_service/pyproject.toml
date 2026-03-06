@@ -1,0 +1,14 @@
+[project]
+name = "modal-app"
+version = "0.1.0"
+description = "AI Engineering 5-Day Course Backend"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "modal",
+    "python-dotenv",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
